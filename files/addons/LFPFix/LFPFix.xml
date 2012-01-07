@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.runewaker.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.runewaker.com/UI.xsd">
+	<Script file="LFPFix.lua"/>
+	<Frame name="LFPFix_Frame" parent="UIParent">
+		<Scripts>
+			<OnEvent>
+				LFPFix.OnEvent(event)
+			</OnEvent>
+			<OnLoad>
+				LFPFix.OnLoad()
+			</OnLoad>
+		</Scripts>
+	</Frame>
+</Ui>
